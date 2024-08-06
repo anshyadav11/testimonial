@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from 'mongoose';
 import { port,mongodburl } from './config.js';
-import clientrouter from './routes/index.js';
+import clientrouter from './routes/clientrouter.js';
 import userrouter from "./routes/userrouter.js";
 
 
